@@ -1,15 +1,15 @@
-import { wordList } from "../constants/wordList";
-import { validGuessList } from "../constants/validGuessList";
+import { wordList } from '../constants/wordList'
+import { validGuessList } from '../constants/validGuessList'
 
-export const isValidGuess = (word) => {
+export const isValidGuess = word => {
   return (
     wordList.includes(word.toLowerCase()) ||
     validGuessList.includes(word.toLowerCase())
-  );
-};
+  )
+}
 
-export const isCorrectGuess = (word) => {
-  return solution === word;
-};
+export const isCorrectGuess = word => {
+  return solution === word
+}
 
-export const solution = "LATER";
+export const solution = 'PENIS'
